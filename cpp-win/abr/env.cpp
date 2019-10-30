@@ -9,9 +9,8 @@
 #define RANDOM_SEED  42
 #define VIDEO_CHUNCK_LEN  4000.0  // millisec, every time add this amount to buffer
 #define BITRATE_LEVELS  6
-#define MPC_FUTURE_CHUNK_COUNT 8
-#define A_DIM BITRATE_LEVELS
-#define TOTAL_VIDEO_CHUNKS  48
+#define MPC_FUTURE_CHUNK_COUNT 8 //define future count
+#define A_DIM BITRATE_LEVEL
 #define BUFFER_THRESH  60.0 * MILLISECONDS_IN_SECOND  // millisec, max buffer limit
 #define DRAIN_BUFFER_SLEEP_TIME  500.0  // millisec
 #define PACKET_PAYLOAD_PORTION  0.95
