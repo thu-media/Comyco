@@ -4,6 +4,32 @@ Sorry for the long delay. This is a simple Tensorflow implementation of
 * [Comyco](https://arxiv.org/abs/1908.02270): Quality-Aware Adaptive Video Streaming via Imitation Learning 
 * [PiTree](https://dl.acm.org/citation.cfm?doid=3343031.3350866): Practical Implementation of ABR Algorithms Using Decision Trees
 
+## Cite
+
+If you find this work useful to you, please cite the [conference version](https://dl.acm.org/citation.cfm?id=3351014):
+
+```
+@inproceedings{huang2019comyco,
+  title={Comyco: Quality-Aware Adaptive Video Streaming via Imitation Learning},
+  author={Huang, Tianchi and Zhou, Chao and Zhang, Rui-Xiao and Wu, Chenglei and Yao, Xin and Sun, Lifeng},
+  booktitle={Proceedings of the 27th ACM International Conference on Multimedia},
+  pages={429--437},
+  year={2019},
+  organization={ACM}
+}
+```
+
+or the [arXiv version](https://arxiv.org/abs/1908.02270):
+
+```
+@article{huang2019comyco,
+  title={Comyco: Quality-Aware Adaptive Video Streaming via Imitation Learning},
+  author={Huang, Tianchi and Zhou, Chao and Zhang, Rui-Xiao and Wu, Chenglei and Yao, Xin and Sun, Lifeng},
+  journal={arXiv preprint arXiv:1908.02270},
+  year={2019}
+}
+```
+
 ## What's Comyco
 
 Comyco is a video quality-aware ABR approach that enormously improves the learning-based methods by tackling the issues, i.e., low sample efficiency and lacks video quality information. Comyco trains the policy via imitating expert trajectories given by the instant solver, which can not only avoid redundant exploration but also make better use of the collected samples. Meanwhile, Comyco attempts to pick the chunk with higher perceptual video qualities rather than video bitrates. To achieve this, we construct Comyco's neural network architecture, video datasets and QoE metrics with video quality features. 
