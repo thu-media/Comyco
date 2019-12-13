@@ -33,6 +33,7 @@ class libcomyco(object):
         # self.core_net_loss = tflearn.objectives.mean_square(
         #     self.real_out, self.y_) + 1e-3 * tf.reduce_sum(tf.multiply(self.real_out, tf.log(self.real_out)))
         # self.core_net_loss = -tf.reduce_sum(self.y_ * tf.log(self.real_out)) + 1e-3 * tf.reduce_sum(tf.multiply(self.real_out, tf.log(self.real_out)))
+        # Note: here is a minor mistake in the camera ready paper, the fomular of eq(4) should be l_comyco = -log(pi) * A* - \beta * entropy
         self.core_net_loss = tflearn.objectives.categorical_crossentropy(
             self.real_out, self.y_) + 1e-3 * tf.reduce_sum(tf.multiply(self.real_out, tf.log(self.real_out)))
 
