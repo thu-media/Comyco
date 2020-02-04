@@ -1,8 +1,12 @@
 # Comyco
 
-Sorry for the long delay. This is a simple Tensorflow implementation of
+This is a simple Tensorflow implementation of
 * [Comyco](https://arxiv.org/abs/1908.02270): Quality-Aware Adaptive Video Streaming via Imitation Learning 
 * [PiTree](https://dl.acm.org/citation.cfm?doid=3343031.3350866): Practical Implementation of ABR Algorithms Using Decision Trees
+
+## Feb. 5th Updated
+
+[Video Description Dataset](https://github.com/godka/comyco-video-description-dataset)
 
 ## Cite
 
