@@ -35,7 +35,7 @@ or the [arXiv version](https://arxiv.org/abs/1908.02270):
 Comyco is a video quality-aware ABR approach that enormously improves the learning-based methods by tackling the issues, i.e., low sample efficiency and lacks video quality information. Comyco trains the policy via imitating expert trajectories given by the instant solver, which can not only avoid redundant exploration but also make better use of the collected samples. Meanwhile, Comyco attempts to pick the chunk with higher perceptual video qualities rather than video bitrates. To achieve this, we construct Comyco's neural network architecture, video datasets and QoE metrics with video quality features. 
 
 <p align="center">
-    <img src="rc/details/cdf.png" width="60%">
+    <img src="src/details/cdf.png" width="60%">
 </p>
 
 ## Quick Start
