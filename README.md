@@ -1,5 +1,7 @@
 # Comyco
 
+Oct. 13, 2025: Comyco-lin has been updated to PyTorch.
+
 July 22, 2023: **For Comyco with linear-based QoE, please refer to https://github.com/godka/comyco-lin.**
 
 This is a simple Tensorflow implementation of
@@ -163,3 +165,4 @@ Contact: htc17@mails.tsinghua.edu.cn,
 or, 
 
 create an issue.
+
