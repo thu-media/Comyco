@@ -1,0 +1,7 @@
+__pycache__/
+*.so
+build/
+data/
+models/
+results/
+*.log
